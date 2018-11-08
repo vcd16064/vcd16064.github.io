@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="referrer" content="origin">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<style>.anim{visibility:hidden}</style>
+<title>LZQ</title>
+<link rel="stylesheet" type="text/css" href="css/site.20181108113123.css">
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="css/site.20181108113123-lteIE7.css">
+<![endif]-->
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="css/site.20181108113123-lteIE8.css">
+<![endif]-->
+<!--[if gte IE 9]>
+<link rel="stylesheet" type="text/css" href="css/site.20181108113123-gteIE9.css">
+<![endif]-->
+</head>
+<body id="body">
+<div class="pos vis section">
+<div class="vis-2 pos-2 size cont">
+<div class="vis-2 pos-2 size colwrapper">
+<div class="vis-2 pos-2 size cont">
+<div class="vis-2 pos-2 size colwrapper">
+<div class="vis-2 pos-2 size cont">
+<div class="vis-2 pos-2 size colwrapper">
+<div class="vis-2 pos-2 size-2 cont-2">
+<picture class="img-2">
+<source srcset="images/22-320.png 1x, images/22-640.png 2x" media="(max-width:479px)">
+<source srcset="images/22-480.png 1x, images/22-960.png 2x" media="(max-width:1199px)">
+<source srcset="images/22-1200.png 1x, images/22-2400.png 2x" media="(min-width:1200px)">
+<img src="images/22-320.png" alt="" class="js img">
+</picture>
+</div>
+<div class="vis-2 pos-3 size-3 cont">
+<div class="vis-2 pos-4 size-4 cont-3"></div>
+<div class="vis-2 pos-5 size-5 cont-4"></div>
+<div class="vis-3 pos-6 size-6 cont-5">
+<p class="para"><span class="font">主页</span></p>
+</div>
+</div>
+<div class="vis-2 pos-7 size-7 cont">
+<div class="vis-2 pos-2 size-7 colwrapper">
+<div class="vis-2 pos-2 size-8 cont-6">
+<picture class="img-4">
+<source srcset="images/wang-ye-she-ji_03-93.png 1x, images/wang-ye-she-ji_03-186.png 2x" media="(max-width:479px)">
+<source srcset="images/wang-ye-she-ji_03-140.png 1x, images/wang-ye-she-ji_03-280.png 2x" media="(max-width:1199px)">
+<source srcset="images/wang-ye-she-ji_03-349.png 1x, images/wang-ye-she-ji_03-698.png 2x" media="(min-width:1200px)">
+<img src="images/wang-ye-she-ji_03-93.png" alt="" class="js-2 img-3">
+</picture>
+</div>
+<div class="vis-2 pos-8 size-9 cont">
+<div class="vis-2 pos-2 size-9 colwrapper">
+<div class="vis-3 pos-2 size-10 cont-7">
+<p class="para"><span class="font-2">lanzhiqiang</span></p>
+</div>
+<div class="vis-3 pos-9 size-11 cont-8">
+<p class="para"><span class="font-2">兰志强</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vis-2 pos-10 size-12 cont">
+<div class="vis-3 pos-2 size-13 cont-9">
+<p class="para"><span class="font">用心做好每一件事就是成功</span></p>
+</div>
+<div class="vis-2 pos-11 size-5 cont-10"></div>
+<div class="vis-2 pos-12 size-14 cont-11"></div>
+</div>
+<div class="vis-2 pos-13 size-15 cont">
+<div class="vis-2 pos-14 size-16 cont-12"></div>
+<div class="vis-2 pos-15 size-17 cont-13">
+<picture class="img-6">
+<source srcset="images/xiao-tu-biao-01-22.png 1x, images/xiao-tu-biao-01-44.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-32.png 1x, images/xiao-tu-biao-01-64.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-80.png 1x, images/xiao-tu-biao-01-160.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-22.png" alt="" class="js-3 img-5">
+</picture>
+</div>
+<div class="vis-2 pos-16 size-18 cont-14">
+<picture class="img-8">
+<source srcset="images/xiao-tu-biao-01-25.png 1x, images/xiao-tu-biao-01-50.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-37.png 1x, images/xiao-tu-biao-01-74.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-90.png 1x, images/xiao-tu-biao-01-180.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-25.png" alt="" class="js-4 img-7">
+</picture>
+</div>
+<div class="vis-3 pos-17 size-19 cont-15">
+<p class="para"><span class="font">关于我</span></p>
+</div>
+<div class="vis-2 pos-18 size-20 cont-16">
+<picture class="img-10">
+<source srcset="images/xiao-tu-biao-01-25.png 1x, images/xiao-tu-biao-01-50.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-36.png 1x, images/xiao-tu-biao-01-72.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-88.png 1x, images/xiao-tu-biao-01-176.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-25.png" alt="" class="js-5 img-9">
+</picture>
+</div>
+<div class="vis-2 pos-19 size-21 cont-17">
+<picture class="img-12">
+<source srcset="images/xiao-tu-biao-01-22.png 1x, images/xiao-tu-biao-01-44.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-33.png 1x, images/xiao-tu-biao-01-66.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-83.png 1x, images/xiao-tu-biao-01-166.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-22.png" alt="" class="js-6 img-11">
+</picture>
+</div>
+<div class="vis-2 pos-20 size-22 cont-18"></div>
+</div>
+<div class="vis-2 pos-21 size-23 cont-19"></div>
+<div class="vis-2 pos-22 size-24 cont-20"></div>
+<div class="vis-2 pos-23 size-25 cont">
+<div class="vis-2 pos-24 size-26 cont-21"></div>
+<div class="vis-2 pos-25 size-27 colwrapper">
+<div class="vis-3 pos-26 size-28 cont-22">
+<p class="para"><span class="font-3">姓名：兰志强</span></p>
+</div>
+<div class="vis-3 pos-27 size-29 cont-23">
+<p class="para"><span class="font-3">出生年月：1996.12.06</span></p>
+</div>
+<div class="vis-2 pos-28 size-30 cont">
+<div class="vis-3 pos-2 size-31 cont-24">
+<p class="para"><span class="font-3">就读学校：嘉庚学院</span></p>
+</div>
+<div class="vis-3 pos-29 size-32 cont-25">
+<p class="para"><span class="font-3">专业：视觉传达</span></p>
+</div>
+</div>
+</div>
+<div class="vis-2 pos-30 size-26 cont-26"></div>
+</div>
+<div class="vis-2 pos-31 size-33 cont">
+<div class="vis-2 pos-32 size-34 cont-27"></div>
+<div class="vis-2 pos-33 size-35 cont-28"></div>
+</div>
+<div class="vis-2 pos-34 size-24 cont-29"></div>
+<div class="vis-2 pos-35 size-36 cont">
+<div class="vis-2 pos-36 size-37 cont-30"></div>
+<div class="vis-2 pos-37 size-38 cont-31">
+<picture class="img-14">
+<source srcset="images/u-695126824-1221370075-fm-26-gp-0-54.jpg 1x, images/u-695126824-1221370075-fm-26-gp-0-108.jpg 2x" media="(max-width:479px)">
+<source srcset="images/u-695126824-1221370075-fm-26-gp-0-81.jpg 1x, images/u-695126824-1221370075-fm-26-gp-0-162.jpg 2x" media="(max-width:1199px)">
+<source srcset="images/u-695126824-1221370075-fm-26-gp-0-202.jpg 1x, images/u-695126824-1221370075-fm-26-gp-0-404.jpg 2x" media="(min-width:1200px)">
+<img src="images/u-695126824-1221370075-fm-26-gp-0-54.jpg" alt="" class="js-7 img-13">
+</picture>
+</div>
+<div class="vis-2 pos-38 size-39 colwrapper">
+<div class="vis-3 pos-39 size-40 cont-32">
+<p class="para"><span class="font-4">我的技能</span></p>
+</div>
+<div class="vis-2 pos-40 size-41 cont">
+<div class="vis-2 pos-2 size-42 cont-33">
+<picture class="img-16">
+<source srcset="images/wang-ye-she-ji_03-26.png 1x, images/wang-ye-she-ji_03-52.png 2x" media="(max-width:479px)">
+<source srcset="images/wang-ye-she-ji_03-38.png 1x, images/wang-ye-she-ji_03-76.png 2x" media="(max-width:1199px)">
+<source srcset="images/wang-ye-she-ji_03-95.png 1x, images/wang-ye-she-ji_03-190.png 2x" media="(min-width:1200px)">
+<img src="images/wang-ye-she-ji_03-26.png" alt="" class="js-8 img-15">
+</picture>
+</div>
+<div class="vis-2 pos-41 size-43 cont-34">
+<picture class="img-18">
+<source srcset="images/wang-ye-she-ji_05-25.png 1x, images/wang-ye-she-ji_05-50.png 2x" media="(max-width:479px)">
+<source srcset="images/wang-ye-she-ji_05-37.png 1x, images/wang-ye-she-ji_05-74.png 2x" media="(max-width:1199px)">
+<source srcset="images/wang-ye-she-ji_05-91.png 1x, images/wang-ye-she-ji_05-182.png 2x" media="(min-width:1200px)">
+<img src="images/wang-ye-she-ji_05-25.png" alt="" class="js-9 img-17">
+</picture>
+</div>
+<div class="vis-2 pos-42 size-44 cont-35">
+<picture class="img-20">
+<source srcset="images/adobe-indesign-19.png 1x, images/adobe-indesign-38.png 2x" media="(max-width:479px)">
+<source srcset="images/adobe-indesign-29.png 1x, images/adobe-indesign-58.png 2x" media="(max-width:1199px)">
+<source srcset="images/adobe-indesign-71.png 1x, images/adobe-indesign-142.png 2x" media="(min-width:1200px)">
+<img src="images/adobe-indesign-19.png" alt="" class="js-10 img-19">
+</picture>
+</div>
+</div>
+<div class="vis-2 pos-43 size-23 cont-36"></div>
+</div>
+</div>
+<div class="vis-2 pos-44 size-45 cont">
+<div class="vis-2 pos-2 size-45 colwrapper">
+<div class="vis-2 pos-2 size-46 cont">
+<div class="vis-2 pos-45 size-47 colwrapper">
+<div class="vis-2 pos-2 size-48 cont-37">
+<a name="anchor1" class="vis-2 pos-43 size-49">
+</a>
+<a name="anchor2" class="vis-2 pos-46 size-49">
+</a>
+</div>
+<div class="vis-2 pos-47 size-50 cont">
+<div class="vis-2 pos-2 size-50 colwrapper">
+<div class="vis-3 pos-2 size-51 cont-38">
+<p class="para"><span class="font-5"><a href="2ye.html">书籍设计</a></span></p>
+</div>
+<div class="vis-2 pos-48 size-52 cont-39">
+<a class="anchor" href="2ye.html"><picture class="img-22"><source srcset="images/20png-6.png 1x, images/20png-12.png 2x" media="(max-width:479px)"><source srcset="images/20png-6.png 1x, images/20png-12.png 2x" media="(max-width:1199px)"><source srcset="images/20png-14-1.png 1x, images/20png-28-1.png 2x" media="(min-width:1200px)"><img src="images/20png-6.png" alt="" class="js-11 anim bounceIn img-21"></picture></a>
+</div>
+</div>
+</div>
+<div class="vis-2 pos-49 size-53 cont">
+<div class="vis-3 pos-2 size-54 cont-40">
+<p class="para"><span class="font-5"><a href="3ye.html">字体设计</a></span></p>
+</div>
+<div class="vis-2 pos-50 size-52 cont-41">
+<a class="anchor" href="3ye.html"><picture class="img-22"><source srcset="images/20png-6.png 1x, images/20png-12.png 2x" media="(max-width:479px)"><source srcset="images/20png-6.png 1x, images/20png-12.png 2x" media="(max-width:1199px)"><source srcset="images/20png-14-1.png 1x, images/20png-28-1.png 2x" media="(min-width:1200px)"><img src="images/20png-6.png" alt="" class="js-12 anim bounceIn img-21"></picture></a>
+</div>
+</div>
+</div>
+<div class="vis-2 pos-51 size-55 colwrapper">
+<div class="vis-2 pos-52 size-56 cont">
+<div class="vis-2 pos-53 size-17 cont-42">
+<picture class="img-6">
+<source srcset="images/xiao-tu-biao-01-22.png 1x, images/xiao-tu-biao-01-44.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-32.png 1x, images/xiao-tu-biao-01-64.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-80.png 1x, images/xiao-tu-biao-01-160.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-22.png" alt="" class="js-13 img-5">
+</picture>
+</div>
+<div class="vis-2 pos-54 size-18 cont-43">
+<picture class="img-8">
+<source srcset="images/xiao-tu-biao-01-25.png 1x, images/xiao-tu-biao-01-50.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-37.png 1x, images/xiao-tu-biao-01-74.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-90.png 1x, images/xiao-tu-biao-01-180.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-25.png" alt="" class="js-14 img-7">
+</picture>
+</div>
+<div class="vis-3 pos-55 size-57 cont-44">
+<p class="para"><span class="font">个人作品</span></p>
+</div>
+</div>
+<div class="vis-2 pos-56 size-58 cont-45">
+<a class="anchor js-103" href="images/01-1166.jpg"><picture class="img-24"><source srcset="images/01-98.jpg 1x, images/01-196.jpg 2x" media="(max-width:479px)"><source srcset="images/01-147.jpg 1x, images/01-294.jpg 2x" media="(max-width:1199px)"><source srcset="images/01-366.jpg 1x, images/01-732.jpg 2x" media="(min-width:1200px)"><img src="images/01-98.jpg" alt="" class="js-15 img-23"></picture></a>
+</div>
+</div>
+<div class="vis-2 pos-57 size-59 cont-46">
+<picture class="img-26">
+<source srcset="images/xiao-tu-biao-01-24.png 1x, images/xiao-tu-biao-01-48.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-35.png 1x, images/xiao-tu-biao-01-70.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-88.png 1x, images/xiao-tu-biao-01-176.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-24.png" alt="" class="js-16 img-25">
+</picture>
+</div>
+<div class="vis-2 pos-58 size-60 cont-47">
+<picture class="img-28">
+<source srcset="images/xiao-tu-biao-01-22-1.png 1x, images/xiao-tu-biao-01-44-1.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-34.png 1x, images/xiao-tu-biao-01-68.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-83.png 1x, images/xiao-tu-biao-01-166.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-22-1.png" alt="" class="js-17 img-27">
+</picture>
+</div>
+<div class="vis-2 pos-59 size-61 colwrapper">
+<div class="vis-2 pos-2 size-22 cont-48"></div>
+<div class="vis-2 pos-60 size-62 cont-49">
+<a class="anchor js-104" href="images/2-1000.jpg"><picture class="img-30"><source srcset="images/2-97.jpg 1x, images/2-194.jpg 2x" media="(max-width:479px)"><source srcset="images/2-146.jpg 1x, images/2-292.jpg 2x" media="(max-width:1199px)"><source srcset="images/2-366.jpg 1x, images/2-732.jpg 2x" media="(min-width:1200px)"><img src="images/2-97.jpg" alt="" class="js-18 img-29"></picture></a>
+</div>
+</div>
+</div>
+<div class="vis-2 pos-61 size-63 cont-50">
+<picture class="img-32">
+<source srcset="images/99_03-320.jpg 1x, images/99_03-640.jpg 2x" media="(max-width:479px)">
+<source srcset="images/99_03-480.jpg 1x" media="(max-width:1199px)">
+<source srcset="images/99_03-1200.jpg 1x" media="(min-width:1200px)">
+<img src="images/99_03-320.jpg" alt="" class="js-19 img-31">
+</picture>
+</div>
+<div class="vis-2 pos-62 size-64 cont">
+<div class="vis-2 pos-2 size-62 cont-51">
+<a class="anchor js-105" href="images/2017.20-709.jpg"><picture class="img-30"><source srcset="images/2017.20-97.jpg 1x, images/2017.20-194.jpg 2x" media="(max-width:479px)"><source srcset="images/2017.20-146.jpg 1x, images/2017.20-292.jpg 2x" media="(max-width:1199px)"><source srcset="images/2017.20-366.jpg 1x, images/2017.20-732.jpg 2x" media="(min-width:1200px)"><img src="images/2017.20-97.jpg" alt="" class="js-20 img-29"></picture></a>
+</div>
+<div class="vis-2 pos-63 size-65 cont-52">
+<a class="anchor js-106" href="images/lian-xi1-1500.jpg"><picture class="img-34"><source srcset="images/lian-xi1-98.jpg 1x, images/lian-xi1-196.jpg 2x" media="(max-width:479px)"><source srcset="images/lian-xi1-146.jpg 1x, images/lian-xi1-292.jpg 2x" media="(max-width:1199px)"><source srcset="images/lian-xi1-366.jpg 1x, images/lian-xi1-732.jpg 2x" media="(min-width:1200px)"><img src="images/lian-xi1-98.jpg" alt="" class="js-21 img-33"></picture></a>
+</div>
+<div class="vis-2 pos-63 size-62 cont-53">
+<a class="anchor js-107" href="images/si-ji-601.jpg"><picture class="img-30"><source srcset="images/si-ji-97.jpg 1x, images/si-ji-194.jpg 2x" media="(max-width:479px)"><source srcset="images/si-ji-146.jpg 1x, images/si-ji-292.jpg 2x" media="(max-width:1199px)"><source srcset="images/si-ji-366.jpg 1x, images/si-ji-732.jpg 2x" media="(min-width:1200px)"><img src="images/si-ji-97.jpg" alt="" class="js-22 img-29"></picture></a>
+</div>
+</div>
+<div class="vis-2 pos-64 size-66 cont">
+<div class="vis-2 pos-2 size-66 colwrapper">
+<div class="vis-2 pos-2 size-67 cont">
+<div class="vis-2 pos-45 size-16 cont-54"></div>
+<div class="vis-2 pos-65 size-68 cont-55">
+<picture class="img-36">
+<source srcset="images/xiao-tu-biao-01-22-1.png 1x, images/xiao-tu-biao-01-44-1.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-33.png 1x, images/xiao-tu-biao-01-66.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-80.png 1x, images/xiao-tu-biao-01-160.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-22-1.png" alt="" class="js-23 img-35">
+</picture>
+</div>
+<div class="vis-2 pos-16 size-69 cont-56">
+<picture class="img-38">
+<source srcset="images/xiao-tu-biao-01-24.png 1x, images/xiao-tu-biao-01-48.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-36.png 1x, images/xiao-tu-biao-01-72.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-90.png 1x, images/xiao-tu-biao-01-180.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-24.png" alt="" class="js-24 img-37">
+</picture>
+</div>
+<div class="vis-3 pos-66 size-70 cont-57">
+<p class="para"><span class="font">联系</span></p>
+</div>
+<div class="vis-2 pos-67 size-59 cont-58">
+<picture class="img-26">
+<source srcset="images/xiao-tu-biao-01-24.png 1x, images/xiao-tu-biao-01-48.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-35.png 1x, images/xiao-tu-biao-01-70.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-88.png 1x, images/xiao-tu-biao-01-176.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-24.png" alt="" class="js-25 img-25">
+</picture>
+</div>
+<div class="vis-2 pos-58 size-60 cont-59">
+<picture class="img-28">
+<source srcset="images/xiao-tu-biao-01-22-1.png 1x, images/xiao-tu-biao-01-44-1.png 2x" media="(max-width:479px)">
+<source srcset="images/xiao-tu-biao-01-34.png 1x, images/xiao-tu-biao-01-68.png 2x" media="(max-width:1199px)">
+<source srcset="images/xiao-tu-biao-01-83.png 1x, images/xiao-tu-biao-01-166.png 2x" media="(min-width:1200px)">
+<img src="images/xiao-tu-biao-01-22-1.png" alt="" class="js-26 img-27">
+</picture>
+</div>
+<div class="vis-2 pos-20 size-22 cont-60"></div>
+</div>
+<div class="vis-2 pos-68 size-71 cont-61">
+<picture class="img-40">
+<source srcset="images/55_03-320.jpg 1x, images/55_03-640.jpg 2x" media="(max-width:479px)">
+<source srcset="images/55_03-480.jpg 1x" media="(max-width:1199px)">
+<source srcset="images/55_03-1200.jpg 1x" media="(min-width:1200px)">
+<img src="images/55_03-320.jpg" alt="" class="js-27 img-39">
+</picture>
+</div>
+<div class="vis-2 pos-69 size-72 cont">
+<div class="vis-2 pos-2 size-73 cont-62">
+<picture class="img-42">
+<source srcset="images/dianhua-27.png 1x, images/dianhua-54.png 2x" media="(max-width:479px)">
+<source srcset="images/dianhua-40.png 1x, images/dianhua-80.png 2x" media="(max-width:1199px)">
+<source srcset="images/dianhua-100.png 1x, images/dianhua-200.png 2x" media="(min-width:1200px)">
+<img src="images/dianhua-27.png" alt="" class="js-28 anim fadeInUp img-41">
+</picture>
+</div>
+<div class="vis-2 pos-70 size-74 cont-63">
+<picture class="img-44">
+<source srcset="images/weibo-25.png 1x, images/weibo-50.png 2x" media="(max-width:479px)">
+<source srcset="images/weibo-36.png 1x, images/weibo-72.png 2x" media="(max-width:1199px)">
+<source srcset="images/weibo-88.png 1x, images/weibo-176.png 2x" media="(min-width:1200px)">
+<img src="images/weibo-25.png" alt="" class="js-29 anim fadeInDown img-43">
+</picture>
+</div>
+<div class="vis-2 pos-71 size-75 cont-64">
+<picture class="img-44">
+<source srcset="images/weixin-25.png 1x, images/weixin-50.png 2x" media="(max-width:479px)">
+<source srcset="images/weixin-36.png 1x, images/weixin-72.png 2x" media="(max-width:1199px)">
+<source srcset="images/weixin-88.png 1x, images/weixin-176.png 2x" media="(min-width:1200px)">
+<img src="images/weixin-25.png" alt="" class="js-30 anim fadeInUp img-43">
+</picture>
+</div>
+<div class="vis-2 pos-72 size-76 cont-65">
+<picture class="img-46">
+<source srcset="images/qq-25.png 1x, images/qq-50.png 2x" media="(max-width:479px)">
+<source srcset="images/qq-36.png 1x, images/qq-72.png 2x" media="(max-width:1199px)">
+<source srcset="images/qq-88.png 1x, images/qq-176.png 2x" media="(min-width:1200px)">
+<img src="images/qq-25.png" alt="" class="js-31 anim fadeInDown img-45">
+</picture>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="vis-2 pos-73 size-77 cont-66">
+<picture class="img-48">
+<source srcset="images/77_03-320.jpg 1x, images/77_03-640.jpg 2x" media="(max-width:479px)">
+<source srcset="images/77_03-480.jpg 1x" media="(max-width:1199px)">
+<source srcset="images/77_03-1200.jpg 1x" media="(min-width:1200px)">
+<img src="images/77_03-320.jpg" alt="" class="js-32 img-47">
+</picture>
+</div>
+</div>
+</div>
+<div class="vis-2 pos-74 size-78 cont-67">
+<picture class="img-50">
+<source srcset="images/88_03-320.jpg 1x, images/88_03-640.jpg 2x" media="(max-width:479px)">
+<source srcset="images/88_03-480.jpg 1x" media="(max-width:1199px)">
+<source srcset="images/88_03-1200.jpg 1x" media="(min-width:1200px)">
+<img src="images/88_03-320.jpg" alt="" class="js-33 img-49">
+</picture>
+</div>
+</div>
+</div>
+</div>
+<div class="vis-2 pos size-79 cont-68">
+<div class="pos-75 vis section-2">
+<div class="vis-2 pos-76 size-80 cont-69">
+<a class="anchor" href="#"><picture class="img-52"><source srcset="images/20png-9.png 1x, images/20png-18.png 2x" media="(max-width:479px)"><source srcset="images/20png-14.png 1x, images/20png-28.png 2x" media="(max-width:1199px)"><source srcset="images/20png-36.png 1x, images/20png-72.png 2x" media="(min-width:1200px)"><img src="images/20png-9.png" alt="" class="js-34 anim bounceIn img-51"></picture></a>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/woolite.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/index.20181108113123.js"></script>
+<script type="text/javascript">
+var ver=RegExp(/Mozilla\/5\.0 \(Linux; .; Android ([\d.]+)/).exec(navigator.userAgent);if(ver&&parseFloat(ver[1])<5){document.getElementsByTagName('body')[0].className+=' whitespacefix';}
+</script>
+</body>
+</html>
